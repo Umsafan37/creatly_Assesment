@@ -1,0 +1,353 @@
+*{
+   padding-right: 20px;
+    margin: 0;
+    text-decoration:none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: url('assets/header_bg.svg'); /* Replace 'your-image.jpg' with the path to your image file */
+    background-size: auto; /* Adjust to your needs (e.g., 'contain', '100% 100%', 'auto', etc.) */
+    background-repeat: no-repeat; /* Prevent repeating the background image */
+    background-position: center; /* Center the background image */
+     background-attachment: fixed;
+
+    
+}
+
+body {
+
+    font-family: Poppins ;
+}
+
+nav {
+    background: none;
+    height: 80px;
+    width: 100%;
+    
+}
+
+label.logo {
+     
+     padding: 0 100px;
+     
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+
+    display: inline-block;
+    line-height: 80px;
+    margin-right: 10px;
+}
+
+nav ul li a {
+
+    color: #04263D;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active, a:hover{
+
+    text-decoration:none;
+    background:   white  ;
+    transition: .5s;
+    border-bottom: 5px solid#64C5B4 ;
+    
+    
+
+}
+
+button {
+    background-color: #64C5B4    ; 
+    color: #fff;
+    border: none; 
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px; 
+    cursor: pointer; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.3s; 
+   display: flex-end;
+
+    
+    &:hover {
+        background-color:#0B64A0 ; 
+        
+    }
+}
+
+.h1 {
+
+    color: #04263D;
+    font-family: Roboto    ;   
+    font-size: 30px;
+    padding-top: 80px;
+    padding-left: 130px;
+}
+
+.h3 
+{
+    color: #04263D;
+    font-family: Roboto    ;   
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 130px;
+     
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Create 3 equal-width columns */
+    grid-gap: 10px; /* Add a gap between grid items */
+    padding-left: 100px;
+    padding-top: 0px;
+}
+
+.grid-item {
+    background-color:none;
+    color: #fff;
+    padding: 30px;
+    text-align: left;
+}
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create 3 equal-width columns */
+    grid-gap: 10px; /* Add a gap between grid items */
+    padding-left: 100px;
+    padding-top: 30px;
+    float: left;
+}
+
+.grid-item1 {
+    background-color:none;
+    color: black;
+    padding: 30px;
+    text-align: left;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Create 3 equal-height rows */
+    grid-gap: 0.5px; /* Add gap between grid items */
+    height: 400px; /* Set a fixed height for the container for demonstration */
+    width: 80%;
+    grid-template-columns: repeat(2, 1fr); /* Create 3 equal-width columns */
+    padding-left: 300px;
+    
+    
+}
+
+.grid-item2 {
+    
+    border: 1px solid #64C5B4;
+    padding: 10px;
+    text-align: left;
+    background-color:none;
+}
+
+.grid-item2:nth-child(2) {
+    grid-row: span 3; /* Span all three columns */
+    width: 500px;
+}
+
+
+.list 
+{
+    color: #04263D;
+    font-size: 20px;
+    padding-top: 50px;
+    align-items:flex-start;
+}
+.list li 
+{
+    padding-top: 20px;
+
+}
+
+.button2 {
+
+    padding-top: 10px;
+
+}
+.h4
+{
+    color: #04263D;
+    font-family: Poppins   ;   
+    font-size: 25px;
+    padding-top: 30px;
+    padding-left: 130px;
+    text-align: center;
+}
+.customer_logo
+{
+    padding-top: 30px;
+    padding-left: 270px;
+    
+}
+
+
+
+
+
+.card {
+    width: 330px;
+    height: 520px;
+    /*border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.card img {
+    width: 100%;
+    height: 40%;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card h2 {
+    font-size: 20px;
+    font-family: Poppins ;
+    margin-top: 20px;
+    color: #04263D;
+}
+
+.card p {
+    font-size: 18px;
+    color: #7E7E7E;
+    margin-top: 20px;
+}
+
+.card button{
+    margin-top: 40px;
+    margin-bottom: -20px;
+    transform: translateY(5px);
+    
+}
+
+.logo-footer a {
+    background-color: none; /* Background color for the footer */
+    color: #7E7E7E    ; /* Text color for the footer */
+    font-size: 20px;
+    padding: 10px; /* Add padding for spacing */
+    padding-left:  100px;
+    float: left;
+}
+
+.image {
+    text-align: right    ; /* Center-align the content */
+    display: flex-end;
+    justify-content: space-between;
+    padding-bottom:30px;
+    float: right;
+}
+
+
+
+  /* Style the tab */
+  .tablink {
+    padding-top: 50px;
+    
+  }
+.tab {
+    float: left;
+    padding-left: 200px;
+    background-color: none;
+    width: 30%;
+    height: 450px;
+    box-sizing: border-box;
+   
+    
+
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    display: flex;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 200%;
+    border: 0.2px solid #AAAAAA;
+    border-right-width: 10px;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+    height: 150px;
+    
+    flex-direction: column;
+    align-items: left;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current "tab button" class */
+  .tab button.active {
+   
+    border-color:  #64C5B4;
+    border-right: 20px solid #64C5B4;
+    border-right-width: 10px;
+    border-left-width: 2px ;
+    border-top-width:2px ;
+    border-bottom-width: 2px;
+    
+  
+  }
+
+  
+  
+  /* Style the tab content */
+  .tabcontent {
+    float:right;
+    padding: 0px 12px;
+    border: 0.2px solid #64C5B4;
+    width: 59%;
+    height: 450px;
+    border-radius: 1%;
+    
+  }
+
+  .tabcontent p {
+    font-size: 15px;
+    padding-top: 25px;
+  }
+
+  h5 
+  {
+    font-family: Poppins;
+    text-align: left;
+    font-size: 20px;
+    margin: 0;
+    font-weight: 15%;
+    color: #04263D;
+    
+    
+  }
+ 
+  .buttonp {
+    font-family:Roboto  ;
+    font-size: 15px;
+    padding-top: 4px;
+    color: #7E7E7E;
+  }
+
+.bulleted-list li {
+    list-style-type: disc; 
+    line-height: 1.5;
+    
+}
